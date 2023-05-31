@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Serviceslist from './Serviceslist';
 
 
 const Services = () => {

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { AiFillChrome } from "react-icons/ai";
 import { VscChromeClose, VscMenu } from 'react-icons/vsc';
 import { Transition } from '@headlessui/react';
 import { Link } from 'react-router-dom';
@@ -15,8 +14,8 @@ const Navbar = () => {
         <nav className="bg-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    <p className="text-white text-lg font-bold">
-                    <AiFillChrome></AiFillChrome>
+                    <p className="text-white text-3xl font-bold  animate-pulse">
+                    Tawheed
                     </p>
                     <div className="flex md:hidden">
                         <button
@@ -46,7 +45,7 @@ const Navbar = () => {
                                     to='/About'
                                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
-                                    About
+                                    About Me
                                 </Link>
                             </li>
                             <li>
@@ -91,7 +90,7 @@ const Navbar = () => {
                                     to='/about'
                                     className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
-                                    About
+                                    About Me
                                 </Link>
                                 <Link
                                     to='/contact'

@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadCV from './DownloadCV';
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
           </div>
           <div className="md:w-1/2 md:pl-8">
             <p className="text-lg mb-4">
-              Hi, I'm John Doe, a passionate web developer with over 5 years of experience.
+              Hi, I'm Tawheed Shimul, a passionate web developer with over 2 years of experience.
             </p>
             <p className="text-lg mb-4">
               I specialize in front-end development and enjoy creating visually appealing and interactive user interfaces.
@@ -26,6 +27,7 @@ const About = () => {
             <p className="text-lg mb-4">
               I am dedicated to delivering high-quality websites that meet client requirements and provide a great user experience.
             </p>
+            <DownloadCV></DownloadCV>
           </div>
         </div>
       </div>
