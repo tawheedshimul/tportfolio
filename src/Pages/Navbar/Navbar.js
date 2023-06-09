@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { VscChromeClose, VscMenu } from 'react-icons/vsc';
 import { Transition } from '@headlessui/react';
 import { Link } from 'react-router-dom';
+import SimpleClock from './SimpleClock';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,12 @@ const Navbar = () => {
         <nav className="bg-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
+                    <div className='flex'>
                     <p className="text-white text-3xl font-bold  animate-pulse">
                     Tawheed
                     </p>
+                    <p className='px-3'><SimpleClock></SimpleClock></p>
+                    </div>
                     <div className="flex md:hidden">
                         <button
                             onClick={toggleMenu}

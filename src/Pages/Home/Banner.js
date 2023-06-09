@@ -12,7 +12,7 @@ const Banner = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" />
+                        <img src="https://i.ibb.co/Rzr0zv4/pngwing-com-2.png" alt="" />
                     </div>
                 </div>
                 <div className="md:w-4/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12 bg-gray-50 py-6 px-6 md:py-0 md:px-4 lg:px-6 flex flex-col justify-center relative">
@@ -23,7 +23,7 @@ const Banner = () => {
                         </p>
                     </div>
                     <div className="flex justify-end md:absolute md:bottom-4 md:right-4 lg:bottom-0 lg:right-0">
-                        <img src="https://i.ibb.co/rGfP7mp/Rectangle-59-1.png" alt="" className="md:w-20 md:h-20 lg:w-full lg:h-full" />
+                        <img src="https://i.ibb.co/tmKPX7n/pngwing-com.png" alt="" className="md:w-20 md:h-20 lg:w-30 lg:h-25" />
                     </div>
                 </div>
             </div>
