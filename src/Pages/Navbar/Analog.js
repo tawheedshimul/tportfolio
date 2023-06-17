@@ -29,13 +29,13 @@ const AnalogWatch = () => {
   };
 
   return (
-    <div className="analog-watch h-10 w-10 bg-indigo-400 border-2 border-gray-500 rounded-full flex items-center justify-center">
+    <div className="analog-watch h-10 w-10 bg-gray-600 border-2 border-gray-500 rounded-full flex items-center justify-center">
       <div
-        className="hand hour-hand bg-black h-10 w-2 absolute"
+        className="hand hour-hand bg-red-200 h-10 w-2 absolute"
         style={{ transform: `rotate(${getRotation('hour')}deg)` }}
       ></div>
       <div
-        className="hand minute-hand bg-white h-10 w-2 absolute"
+        className="hand minute-hand bg-pink-800 h-10 w-2 absolute"
         style={{ transform: `rotate(${getRotation('minute')}deg)` }}
       ></div>
       <div
