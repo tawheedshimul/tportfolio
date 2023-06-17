@@ -6,15 +6,15 @@ import BackToTopButton from './BackToTopButton';
 
 const Footer = () => {
   const visitFacebookProfile = () => {
-    window.open('https://www.facebook.com/your-profile', '_blank');
+    window.open('https://www.facebook.com/tawheedshimul', '_blank');
   };
 
   const visitTwitterProfile = () => {
-    window.open('https://twitter.com/your-profile', '_blank');
+    window.open('https://twitter.com/tawheedshimul', '_blank');
   };
 
-  const visitYouTubeProfile = () => {
-    window.open('https://www.youtube.com/your-profile', '_blank');
+  const visitLinkedinProfile = () => {
+    window.open('https://www.linkedin.com/TawheedShimul', '_blank');
   }
   return (
     <footer className="bg-gray-800 py-4">
@@ -31,7 +31,7 @@ const Footer = () => {
           <FaTwitter onClick={visitTwitterProfile} className="text-white text-lg hover:text-red-500 cursor-pointer" />
           </li>
           <li>
-          <FaLinkedinIn onClick={visitYouTubeProfile} className="text-white text-lg hover:text-red-500 cursor-pointer" />
+          <FaLinkedinIn onClick={visitLinkedinProfile} className="text-white text-lg hover:text-red-500 cursor-pointer" />
           </li>
         </ul>
       </div>

@@ -14,12 +14,12 @@ const SimpleClock = () => {
   }, []);
 
   const formattedTime = currentTime.toLocaleTimeString();
-//   const formattedDate = currentTime.toLocaleDateString();
+  const formattedDate = currentTime.toLocaleDateString();
 
   return (
-    <div className="text-center">
-      <h1 className="text-white animate-bounce bottom-0">{formattedTime}</h1>
-      {/* <p className="text-white animate-bounce">{formattedDate}</p> */}
+    <div className="text-center rounded bg-violet-600 px-5">
+      <h1 className="text-white">{formattedTime}</h1>
+      <p className="text-white">{formattedDate}</p>
     </div>
   );
 };
