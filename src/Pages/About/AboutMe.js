@@ -1,5 +1,6 @@
 import React from 'react';
 import DownloadCV from './DownloadCV';
+import DownloadCertificate from './DownloadCertificate';
 
 const AboutMe = () => {
   return (
@@ -24,6 +25,7 @@ const AboutMe = () => {
               I am dedicated to delivering high-quality websites that meet client requirements and provide a great user experience.
             </p>
             <DownloadCV></DownloadCV>
+            <DownloadCertificate></DownloadCertificate>
           </div>
         </div>
       </div>

@@ -40,8 +40,8 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0">
             <h3 className="text-xl mb-4">About Us</h3>
-            <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis tortor id nulla iaculis, ut pellentesque ex lacinia.</p>
-            <ul className="flex space-x-4 mt-4">
+            <p className="text-gray-400 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis tortor id nulla iaculis, ut pellentesque ex lacinia.</p>
+            <ul className="flex space-x-4 mt-4 mx-auto">
               <li>
                 <FaFacebookF onClick={visitFacebookProfile} className="text-rose-800 text-lg hover:text-red-500 cursor-pointer" />
               </li>
