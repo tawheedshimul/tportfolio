@@ -9,10 +9,10 @@ const DownloadCertificate = () => {
     };
 
     return (
-        <div className="bg-white shadow rounded p-4 text-center">
+        <div className="bg-gray-800 shadow rounded p-4 text-center">
             <h2 className="text-xl font-semibold mb-4">Web developer Certificate</h2>
             <button
-                className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+                className="bg-red-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
                 onClick={handleDownload}
             >
                 Download Certificate

@@ -4,9 +4,9 @@ import DownloadCertificate from './DownloadCertificate';
 
 const AboutMe = () => {
   return (
-    <div className="bg-pink-100 min-h-screen py-8">
+    <div className="text-white bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 min-h-screen py-8">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-4">About Me</h1>
+        <h1 className="text-4xl font-bold text-center mb-4 animate-bounce"><span className='bg-black p-2 rounded'>About Me</span></h1>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2">
              <img src="https://i.ibb.co/r2ZjV0h/57034730-285019035760717-2703654450811109376-n.jpg" alt="Profile Picture" className="w-full rounded" />

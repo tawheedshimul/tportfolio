@@ -56,7 +56,7 @@ const Player = () => {
     ]
     return (
         <div className="container mx-auto flex justify-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
+            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
                 {video.map((videos) => (
                     <div key={videos.name} className="rounded overflow-hidden shadow-md">
                         <ReactPlayer url={videos.Url} controls width="100%" height='200px' />

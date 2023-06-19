@@ -19,21 +19,21 @@ const Footer = () => {
     window.open('https://www.linkedin.com/TawheedShimul', '_blank');
   }
   return (
-    <footer className="bg-gray-300 py-4">
+    <footer className="text-white bg-gradient-to-r from-gray-200 via-pink-500 to-gray-500 py-4">
       <BackToTopButton></BackToTopButton>
       <div className="container mx-auto text-center">
-        <p className="text-black">
+        <p className="text-xl ">
           Copyright &copy; 2022 - {currentYear}, My Company. All rights reserved.
         </p>
         <ul className="flex justify-center space-x-4 mt-4">
           <li>
-            <FaFacebookF onClick={visitFacebookProfile} className="text-rose-800 text-lg hover:text-red-500 cursor-pointer" />
+            <FaFacebookF onClick={visitFacebookProfile} className="text-white animate-spin text-lg hover:animate-none cursor-pointer" />
           </li>
           <li>
-            <FaTwitter onClick={visitTwitterProfile} className="text-rose-800 text-lg hover:text-red-500 cursor-pointer" />
+            <FaTwitter onClick={visitTwitterProfile} className="text-white animate-spin text-lg hover:animate-none cursor-pointer" />
           </li>
           <li>
-            <FaLinkedinIn onClick={visitLinkedinProfile} className="text-rose-800 text-lg hover:text-red-500 cursor-pointer" />
+            <FaLinkedinIn onClick={visitLinkedinProfile} className="text-white animate-spin text-lg hover:animate-none cursor-pointer" />
           </li>
         </ul>
       </div>
