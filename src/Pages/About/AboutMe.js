@@ -4,7 +4,7 @@ import DownloadCertificate from './DownloadCertificate';
 
 const AboutMe = () => {
   return (
-    <div className="bg-gray-200 min-h-screen py-8">
+    <div className="bg-pink-100 min-h-screen py-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-4">About Me</h1>
         <div className="flex flex-col md:flex-row">
