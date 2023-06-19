@@ -5,6 +5,7 @@ import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
 import Services from "../Pages/Services/Services";
 import Main from "../Layout/Main";
+import Player from "../Pages/Player/Player";
 
 
 
@@ -29,11 +30,15 @@ export const router = createBrowserRouter([
       },
       {
         path: '/services',
-        loader: async()=>{
+        loader: async () => {
           return fetch('https://jsonplaceholder.typicode.com/users')
         },
         element: <Services></Services>
-      }
+      },
+      {
+        path: '/player',
+        element: <Player></Player>
+      },
     ]
   }
 ])

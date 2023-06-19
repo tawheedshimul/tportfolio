@@ -67,6 +67,13 @@ const Navbar = () => {
                                     Services
                                 </NavLink>
                             </li>
+                            <li>
+                                <NavLink
+                                    to='/player'
+                                    className="button text-red-600">
+                                    Player
+                                </NavLink>
+                            </li>
 
                         </ul>
                     </div>
@@ -113,6 +120,14 @@ const Navbar = () => {
                                         className="mbutton"
                                         onClick={toggleMenu}>
                                         Services
+                                    </NavLink>
+                                </div>
+                                <div>
+                                    <NavLink
+                                        to='/player'
+                                        className="mbutton"
+                                        onClick={toggleMenu}>
+                                        Player
                                     </NavLink>
                                 </div>
                             </div>
