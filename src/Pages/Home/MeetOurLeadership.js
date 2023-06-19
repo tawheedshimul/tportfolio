@@ -49,9 +49,9 @@ const MeetOurLeadership = () => {
             We are a team of passionate and experienced developers who are dedicated to building innovative and user-friendly software. We are always looking for new challenges and are always willing to go the extra mile to get the job done.
           </p>
         </div>
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <div role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {people.map((person) => (
-            <li key={person.name}>
+            <div key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
                 <div>
@@ -59,9 +59,9 @@ const MeetOurLeadership = () => {
                   <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
                 </div>
               </div>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

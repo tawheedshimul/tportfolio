@@ -50,9 +50,9 @@ const Movies = () => {
             Tawheed love to watch sci fi movies also love romantic movies. Here you see some tawheed favourite movies...
           </p>
         </div>
-        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <div role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {people.map((person) => (
-            <li key={person.name}>
+            <div key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img className="h-40 w-36 rounded" src={person.imageUrl} alt="" />
                 <div>
@@ -60,9 +60,9 @@ const Movies = () => {
                   <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
                 </div>
               </div>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );

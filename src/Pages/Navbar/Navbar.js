@@ -50,7 +50,7 @@ const Navbar = () => {
                                 <NavLink
                                     to='/About'
                                     className="button text-red-600">
-                                    About Me
+                                    About
                                 </NavLink>
                             </li>
                             <li>
