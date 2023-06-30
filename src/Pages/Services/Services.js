@@ -1,25 +1,17 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Serviceslist from './Serviceslist';
-
+import React from "react";
+import Card from "./Card";
+import servicesData from "./services.json";
 
 const Services = () => {
-  const services = useLoaderData();
-  console.log(services);
-  return (
-    <div className='container mx-auto p-4'>
-      <p className="text-lg mb-4">
-        We have {services.length} services.
-      </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {
-          services.map(service => <Serviceslist
-            service={service}
-          ></Serviceslist>)
-        }
-      </div>
-    </div>
-  );
+    return (
+        <div className="container mx-auto flex justify-center">
+            <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4 ">
+                {servicesData.services.map((service, index) => (
+                    <Card key={index} {...service} />
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Services;

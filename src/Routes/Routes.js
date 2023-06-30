@@ -30,9 +30,9 @@ export const router = createBrowserRouter([
       },
       {
         path: '/services',
-        loader: async () => {
-          return fetch('https://jsonplaceholder.typicode.com/users')
-        },
+        // loader: async () => {
+        //   return fetch('https://jsonplaceholder.typicode.com/users')
+        // },
         element: <Services></Services>
       },
       {
