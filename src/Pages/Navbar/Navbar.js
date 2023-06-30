@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className="flex md:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="text-gray-400 hover:text-black focus:outline-none focus:text-black"
+                            className="text-gray-400 hover:text-black focus:outline-none focus:text-red-600"
                             aria-label="Toggle menu"
                         >
                             {isOpen ? (
