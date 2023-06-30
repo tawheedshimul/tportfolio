@@ -46,7 +46,7 @@ const Player = () => {
         {
             name: 'Sos',
             Url:
-                'https://www.youtube.com/watch?v=3U_ZmwFZ6eY',
+                'https://www.youtube.com/watch?v=Grr0FlC8SQA&ab_channel=ZeeMusicCompany',
         },
         {
             name: 'Sarainodu',
